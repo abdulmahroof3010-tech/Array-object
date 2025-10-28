@@ -11,7 +11,6 @@ const orders = [
 
 
 
-
 // 1. Create a *new array* containing only the *totals of completed orders*.
 let result=orders.filter(x=>x.status=="completed").map(x=>x.total)
 console.log(result)
